@@ -8,5 +8,5 @@ console.log(null == undefined); //true
 console.log(null > 0); //false
 console.log(null < 1); //true bcz null converts to 0 when we do comparison with numbers.
 
-console.log(null === undefined); // false
+console.log(null === undefined); // false - strict quality check
 console.log("7" === 7); //false
