@@ -93,3 +93,15 @@ for (let i = 1; i <= r; i++) {
 
     console.log(row);
 }
+
+console.log(".................................");
+
+const symbol = "* ";
+for(let i = 1; i <= 5; i++){
+    console.log(symbol.repeat(i));
+} 
+for(let i = 4; i >= 1; i--){
+    console.log(symbol.repeat(i));
+}
+
+console.log(".................................");
