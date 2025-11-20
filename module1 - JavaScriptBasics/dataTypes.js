@@ -45,3 +45,12 @@ let array = {      //Object array also known as Non-Primitive Data type
 }
 console.log(array);
 console.log(typeof array);
+
+console.log("---------------");
+
+const userDetails = [{ name: "Jayasri"}, { age: "25", sex: "F"}];
+console.log(userDetails);
+console.log(userDetails[0].name); //accessing particular key
+console.log(userDetails[1]); //accessing particular index value means total object
+console.log(userDetails[1].sex);
+console.log(typeof userDetails);

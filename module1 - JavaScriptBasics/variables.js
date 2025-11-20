@@ -56,3 +56,19 @@ const myName = "Satya";
 console.log(myName);
 // myName = "Narayana"; //here error because cannot update value because it is constant
 // console.log(myName);
+
+console.log("----------------------");
+
+/**
+ * Variables can start with alphabets, underscore (_), dollar ($), cannot start with number but can end with number.
+ * But always make sure that variable name should give with meaning full variable name.
+ * Example:- userName, userAge, userAddress, totalAmount - all are meaning full names and have camel casing.
+ * shouldn't give some dollar or underscore sign we can give but it don't have meaning full variable name.
+ * mostly use camel casing avoid giving underscore and dollar sign for naming a variable.
+ */
+
+let _ = "25";
+console.log(_);
+
+let $ = 25;
+console.log($);
