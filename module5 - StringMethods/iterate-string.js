@@ -48,10 +48,12 @@ console.log("..........................");
  */
 
 function characterFind(text, char){
-    const index = text.indexOf(char);
+    // const index = text.indexOf(char);
+    //if we want index to search after a particular index value we can provide that too.
+     const index = text.indexOf(char, 4);
     return index;
 }
 
-console.log(characterFind("Hello, Sassy!", "#"));
+console.log(characterFind("Hello, Sassyl!", "l"));
 
 // here in place of above function we can use updated arrow function
