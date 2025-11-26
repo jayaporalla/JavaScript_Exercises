@@ -41,3 +41,26 @@ console.log(details.bye);
 details.bye();
 
 console.log("..........................");
+
+/**
+ * adding property to object is called computed property
+ */
+
+const readlinesync = require('readline-sync');
+const designation = readlinesync.question("Please enter your designation - ");
+const userDetails = {
+    userName: "Jayasri",
+    age: 25,
+    designation: designation // here we have added property based on user input
+}
+
+userDetails.job = "Software Engineer" // here we added one property to the object
+// we can also add property based on user input
+console.log(userDetails);
+
+/**
+ * short hand - means writing objects in a simple way
+ */
+const userNumber = "9064539871";
+const userId = "56321";
+console.log({userNumber, userId}); // output in the format of object
