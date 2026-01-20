@@ -39,4 +39,4 @@ map.set(10, 'Value is somewhere');
 map.set(20, 'I am here');
 console.log({map});
 map.forEach((value, key) => console.log(`${key} => ${value}`));
-console.log(map.keys());
+console.log([...map.keys()]);
