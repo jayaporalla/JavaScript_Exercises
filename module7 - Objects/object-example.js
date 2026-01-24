@@ -46,21 +46,43 @@ console.log("..........................");
  * adding property to object is called computed property
  */
 
-const readlinesync = require('readline-sync');
-const designation = readlinesync.question("Please enter your designation - ");
-const userDetails = {
-    userName: "Jayasri",
-    age: 25,
-    designation: designation // here we have added property based on user input
+// const readlinesync = require('readline-sync');
+// const designation = readlinesync.question("Please enter your designation - ");
+// const userDetails = {
+//     userName: "Jayasri",
+//     age: 25,
+//     designation: designation // here we have added property based on user input
+// }
+
+// userDetails.job = "Software Engineer" // here we added one property to the object
+// // we can also add property based on user input
+// console.log(userDetails);
+
+// /**
+//  * short hand - means writing objects in a simple way
+//  */
+// const userNumber = "9064539871";
+// const userId = "56321";
+// console.log({userNumber, userId}); // output in the format of object
+
+console.log("------------------------------");
+const obj1 = {
+    name: "Jayasri",
+    age: 24
 }
-
-userDetails.job = "Software Engineer" // here we added one property to the object
-// we can also add property based on user input
-console.log(userDetails);
-
-/**
- * short hand - means writing objects in a simple way
- */
-const userNumber = "9064539871";
-const userId = "56321";
-console.log({userNumber, userId}); // output in the format of object
+const obj2 = {
+    name: "Uma",
+    age: 48
+}
+const obj3 = {
+    name: "Satyanarayana",
+    age: 55
+}
+function sayHi(year, batch){
+    console.log(this.name, year, batch);
+}
+sayHi.call(obj1);
+sayHi.call(obj2);
+sayHi.apply(obj1, [2015, 2022]);
+const result = sayHi.bind(obj3, 2010);
+result(2026);

@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+.heading {
+  font-size: 3rem;
+}
+
+.timer {
+  font-size: 3.5rem;
+}
+
+.btn-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  font-size: 2rem;
+  color: blue;
+  background-color: yellow;
+}
+
+.button:hover {
+  cursor: pointer;
+}
