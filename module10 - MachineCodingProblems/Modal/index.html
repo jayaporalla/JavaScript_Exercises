@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <style>
+        .modal-container{
+            border: 1px solid black;
+            width: 300px;
+        }
+        .container{
+            height: 100%;
+            width: 100%;
+            border: 1px solid black;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            background-color: aqua;
+        }
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <button class="button">Open Modal</button>
+        <div class="container hide">
+            <div class="modal-container">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quasi pariatur quidem, saepe explicabo laudantium suscipit eligendi quas! 
+                    Atque nesciunt reiciendis minus nostrum culpa voluptate blanditiis sequi voluptas! 
+                    Assumenda id nemo asperiores cumque? Libero, voluptate omnis. Voluptate, dolor unde. 
+                    Molestias asperiores, dolore exercitationem consequatur saepe veniam quia beatae ratione voluptates animi?
+                </p>
+                <div>
+                    <button class="save">Save</button>
+                    <button class="close">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
