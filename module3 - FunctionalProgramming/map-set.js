@@ -23,7 +23,7 @@ newStudent.add(4);
 // newStudent.clear();
 //console.log(newStudent.size);
 console.log({newStudent}); // remove duplicate values
-newStudent.forEach((value) => console.log({value}));
+newStudent.forEach((value, key) => console.log(`${key}: ${value}`));
 
 console.log("............................");
 

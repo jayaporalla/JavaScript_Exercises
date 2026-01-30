@@ -21,7 +21,7 @@ console.log(".................................");
 const userName = "Jayasri Poralla Puppy";
 console.log('userName - ', userName);
 console.log("userName length - ", userName.length);
-console.log(userName[0]);
+console.log(userName[0]); //prints first character
 
 for(let i = 0; i < userName.length; i++){ //This loop prints every character on each line by line.
     console.log(userName[i]);

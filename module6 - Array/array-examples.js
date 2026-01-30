@@ -4,6 +4,7 @@
  */
 
 const fruits = ["apple", "banana", "kiwi", "orange", "mango", "guva"];
+console.log(fruits.sort((a, b) => a.length - b.length));
 fruits.sort();
 console.log(fruits);
 

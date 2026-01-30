@@ -1,5 +1,6 @@
 /** 
- * var variable:- we can intitalize and declare separate no error cause from this and also can use same variable name for different values of data
+ * var variable:- we can intitalize and declare separate no error cause from this and also can use same 
+ * variable name for different values of data
  * like example:- 
  * var name = "Jayasri"
  * var name = "Joe"
@@ -18,7 +19,8 @@ console.log(name);
 console.log("----------------------");
 
 /**
- * let variable:- we can initialize and declare later for this no error will generate, but if want to use same variable for different data
+ * let variable:- we can initialize and declare later for this no error will generate, 
+ * but if want to use same variable for different data
  * values it will generate error like example:-
  * let name = "Jayasri"
  * let name = "John" // in this line it will generate error
@@ -38,7 +40,8 @@ console.log(username);
 console.log("----------------------");
 
 /**
- * const variable:- we have to declare and initialize at the same time, if not it will generate error and we cannot update the const variable
+ * const variable:- we have to declare and initialize at the same time, 
+ * if not it will generate error and we cannot update the const variable
  * and cannot use same variable for assigning different data like example:-
  * const name = "Jayasri"
  * const name = "None" // generate error cannot use

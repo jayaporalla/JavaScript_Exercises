@@ -4,7 +4,7 @@
 
 const userName = "Jayasri";
 try{
-    // console.log(myName);
+    console.log(myName);
     console.log("Hey there");
 } catch(error){
     console.log(error.name); //tells error name
