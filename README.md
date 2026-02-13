@@ -1,2 +1,2 @@
 # JavaScript_Exercises
-This repo contains example codes of javascript
+This repoistory contains example codes of javascript
