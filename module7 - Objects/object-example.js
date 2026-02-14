@@ -81,6 +81,7 @@ const obj3 = {
 function sayHi(year, batch){
     console.log(this.name, year, batch);
 }
+//calling the function
 sayHi.call(obj1);
 sayHi.call(obj2);
 sayHi.apply(obj1, [2015, 2022]);
