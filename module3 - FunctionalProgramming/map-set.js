@@ -21,7 +21,7 @@ newStudent.add(1);
 newStudent.add(4);
 // newStudent.delete(1); //provide value not key in order to delete that value from set
 // newStudent.clear();
-//console.log(newStudent.size);
+console.log(newStudent.size);
 console.log({newStudent}); // remove duplicate values
 newStudent.forEach((value, key) => console.log(`${key}: ${value}`));
 
@@ -31,7 +31,7 @@ const data = [1, 2, 3, 4, 1, 5, 2, 3];
 const dataSet = new Set(data); // here I am changing data into set because it will give unique values
 const arraySet = [...dataSet]; //here I am spreading or destructing the set in order to get result as array.
 console.log(arraySet);
-
+console.log(dataSet);
 console.log("............................");
 
 const map = new Map();

@@ -58,12 +58,12 @@ console.log("..........................");
 // // we can also add property based on user input
 // console.log(userDetails);
 
-// /**
-//  * short hand - means writing objects in a simple way
-//  */
-// const userNumber = "9064539871";
-// const userId = "56321";
-// console.log({userNumber, userId}); // output in the format of object
+/**
+ * short hand - means writing objects in a simple way
+ */
+const userNumber = "9064539871";
+const userId = "56321";
+console.log({userNumber, userId}); // output in the format of object
 
 console.log("------------------------------");
 const obj1 = {
